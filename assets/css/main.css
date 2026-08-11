@@ -483,36 +483,38 @@ body.flat .hdr::before{opacity:0}
    Presentation build: the site holds its desktop layout at every width
    rather than reflowing. Nothing above this block was removed.
    ============================================================ */
-body{min-width:1240px}
-.hero__grid{grid-template-columns:repeat(4,1fr)!important}
-.hero__panel:nth-child(n+2){display:block!important}
-.sec__grid{grid-template-columns:var(--rail) minmax(0,1fr)!important;gap:48px!important}
-.sec__rail{position:sticky!important;display:block!important}
-.sec__num{font-size:38px!important;margin-bottom:8px!important}
-.sec__rail hr{display:block!important}
-.burger{display:none!important}
-.nav{position:static!important;inset:auto!important;background:none!important;flex-direction:row!important;
-  transform:none!important;z-index:auto!important;gap:32px!important;justify-content:flex-end!important}
-.nav a{font-size:12.5px!important;padding:6px 0!important;font-family:var(--f-sans)!important;font-weight:500!important;letter-spacing:.04em!important}
-.nav a::after{display:block!important}
-.nav__cta{margin-top:0!important;font-size:11px!important}
-.brands{grid-template-columns:repeat(4,1fr)!important}
-.vals{grid-template-columns:repeat(4,1fr)!important}
-.chars{grid-template-columns:repeat(6,1fr)!important}
-.placs{grid-template-columns:repeat(3,1fr)!important}
-.locs{grid-template-columns:repeat(4,1fr)!important}
-.locs--few{grid-template-columns:repeat(3,1fr)!important}
-.esg__i{grid-template-columns:280px minmax(0,1fr) auto!important}
-.ig{grid-template-columns:repeat(6,1fr)!important}
-.split{grid-template-columns:minmax(0,1fr) minmax(0,.82fr)!important}
-.ft__top{grid-template-columns:minmax(0,1.2fr) repeat(2,minmax(0,.7fr))!important}
-.loc__veil{position:absolute!important;opacity:0!important;background:rgba(20,12,7,.84)!important;
-  padding:20px!important;color:#fff!important}
-.loc:hover .loc__veil,.loc:focus-within .loc__veil{opacity:1!important}
-.loc__veil p{color:rgba(255,255,255,.9)!important}
-.loc__rows{border-top-color:rgba(255,255,255,.24)!important}
-.loc__row b{color:rgba(255,255,255,.55)!important}
-.loc__map{border-color:rgba(255,255,255,.45)!important;color:#fff!important}
+@media (min-width:1240px){
+  body{min-width:1240px}
+  .hero__grid{grid-template-columns:repeat(4,1fr)!important}
+  .hero__panel:nth-child(n+2){display:block!important}
+  .sec__grid{grid-template-columns:var(--rail) minmax(0,1fr)!important;gap:48px!important}
+  .sec__rail{position:sticky!important;display:block!important}
+  .sec__num{font-size:38px!important;margin-bottom:8px!important}
+  .sec__rail hr{display:block!important}
+  .burger{display:none!important}
+  .nav{position:static!important;inset:auto!important;background:none!important;flex-direction:row!important;
+    transform:none!important;z-index:auto!important;gap:32px!important;justify-content:flex-end!important}
+  .nav a{font-size:12.5px!important;padding:6px 0!important;font-family:var(--f-sans)!important;font-weight:500!important;letter-spacing:.04em!important}
+  .nav a::after{display:block!important}
+  .nav__cta{margin-top:0!important;font-size:11px!important}
+  .brands{grid-template-columns:repeat(4,1fr)!important}
+  .vals{grid-template-columns:repeat(4,1fr)!important}
+  .chars{grid-template-columns:repeat(6,1fr)!important}
+  .placs{grid-template-columns:repeat(3,1fr)!important}
+  .locs{grid-template-columns:repeat(4,1fr)!important}
+  .locs--few{grid-template-columns:repeat(3,1fr)!important}
+  .esg__i{grid-template-columns:280px minmax(0,1fr) auto!important}
+  .ig{grid-template-columns:repeat(6,1fr)!important}
+  .split{grid-template-columns:minmax(0,1fr) minmax(0,.82fr)!important}
+  .ft__top{grid-template-columns:minmax(0,1.2fr) repeat(2,minmax(0,.7fr))!important}
+  .loc__veil{position:absolute!important;opacity:0!important;background:rgba(20,12,7,.84)!important;
+    padding:20px!important;color:#fff!important}
+  .loc:hover .loc__veil,.loc:focus-within .loc__veil{opacity:1!important}
+  .loc__veil p{color:rgba(255,255,255,.9)!important}
+  .loc__rows{border-top-color:rgba(255,255,255,.24)!important}
+  .loc__row b{color:rgba(255,255,255,.55)!important}
+  .loc__map{border-color:rgba(255,255,255,.45)!important;color:#fff!important}
+}
 
 
 /* ============================================================
@@ -2074,3 +2076,99 @@ html[data-brand="london-bagel-museum"]:has(.hero) .chars{
 .sechd__n{white-space:nowrap;margin-right:-.2em}
 /* semantic h1 wrapper around the brand hero logo — zero visual delta */
 .bhero__h{margin:0;font-size:0;line-height:0}
+
+/* ============================================================
+   PHONE & TABLET
+   Portrait screens get their own proportions, not a squeezed
+   desktop: cards go wide-and-short, the character wall wraps to
+   a readable grid, type steps down with the viewport.
+   ============================================================ */
+@media (max-width:1239px){
+
+  /* 가로 스크롤 차단 — 어떤 요소도 화면을 넘지 않는다 */
+  html,body{max-width:100%;overflow-x:hidden}
+  img,video,table{max-width:100%}
+
+  /* 히어로: 한 장면만, 확대 애니메이션이 넘치지 않게 */
+  .hero{height:88svh;min-height:520px}
+  .hero__grid{grid-template-columns:1fr}
+  .hero__panel{overflow:hidden}
+  .hero__panel:nth-child(n+2){display:none}
+  .hero__cap{display:none}
+
+  /* 뉴스룸 티저 메타 줄바꿈 */
+  .esgroom__mast{flex-wrap:wrap;gap:8px}
+  .esgroom__meta{max-width:100%;white-space:normal}
+
+  /* 브랜드 카드: 세로로 길지 않게, 가로로 시원하게 */
+  .brands{grid-template-columns:1fr;gap:14px}
+  .bcard__img{aspect-ratio:3/2.6}
+  .bcard__mark img{max-height:52px}
+
+  /* 캐릭터: 격자로 되돌려 읽히는 크기 확보 */
+  .chars{display:grid!important;grid-template-columns:repeat(3,1fr)!important;
+    gap:14px!important;justify-content:stretch!important}
+  .char{flex:none!important;width:auto!important;min-width:0}
+
+  /* 매장 목록: 한 줄에 하나 */
+  .stores,.locs{grid-template-columns:1fr!important}
+  .strow{grid-template-columns:1fr!important;gap:12px}
+  .strow__thumbs{grid-template-columns:repeat(3,1fr)}
+
+  /* 브랜드 메뉴 패널 */
+  .mega__in{grid-template-columns:repeat(2,1fr);gap:10px}
+  .mega__shot{aspect-ratio:3/2}
+
+  /* 뉴스룸 표: 좁은 화면에서 분류·번호는 생략 */
+  .ix__t8 th:nth-child(1),.ix__t8 td:nth-child(1),
+  .ix__t8 th:nth-child(2),.ix__t8 td:nth-child(2){display:none}
+  .ix__bar{flex-wrap:wrap;gap:10px}
+  .gal2__grid{grid-template-columns:1fr}
+
+  /* 본문 여백과 활자 */
+  .sec{padding-block:clamp(44px,9vw,72px)}
+  .wrap{padding-inline:20px}
+  .h-lg{font-size:clamp(24px,6.4vw,34px)}
+  .h-md{font-size:clamp(20px,5.4vw,28px)}
+  .lede{font-size:14.5px;line-height:1.75}
+  .mast__name{font-size:clamp(30px,8.6vw,46px)}
+  .mast__row{flex-wrap:wrap;gap:10px}
+
+  /* 기사 페이지 */
+  .art__metaline{flex-wrap:wrap;gap:6px 14px}
+  .art__nav{grid-template-columns:1fr}
+
+  /* 푸터 */
+  .ft__top{grid-template-columns:1fr;gap:26px}
+  .ft__bar{flex-wrap:wrap;gap:12px}
+}
+
+/* 세로 폰: 캐릭터 2열, 여백 더 좁게 */
+@media (max-width:520px){
+  .chars{grid-template-columns:repeat(2,1fr)!important}
+  .wrap{padding-inline:16px}
+  .mega__in{grid-template-columns:1fr}
+  .bcard__img{aspect-ratio:3/2.4}
+}
+
+/* 카드·격자 비율 확정 — v5.4b 데스크톱 규칙보다 높은 우선순위로 지정 */
+@media (max-width:1239px){
+  /* 태블릿: 2열 */
+  html[data-brand] .brands{grid-template-columns:repeat(2,1fr)!important;gap:14px!important}
+  html[data-brand] .bcard__img{aspect-ratio:3/3.4!important}
+  html[data-brand]:has(.hero) #brands .wrap,
+  html[data-brand]:has(.hero) #faces .wrap{max-width:none;padding-inline:20px}
+}
+@media (max-width:640px){
+  /* 폰: 1열, 가로로 넓은 비율 */
+  html[data-brand] .brands{grid-template-columns:1fr!important;gap:12px!important}
+  html[data-brand] .bcard__img{aspect-ratio:3/2.2!important}
+}
+
+/* 짧아진 모바일 카드에서는 어둡게 덮는 그라데이션을 완화해 사진이 읽히게 한다 */
+@media (max-width:1239px){
+  html[data-brand] .bcard__img::after{
+    background:linear-gradient(to top,rgba(24,14,7,.88) 0%,rgba(24,14,7,.58) 34%,
+      rgba(24,14,7,.16) 66%,rgba(24,14,7,0) 100%)!important}
+  html[data-brand] .bcard__img img{filter:saturate(1) brightness(1)!important}
+}
