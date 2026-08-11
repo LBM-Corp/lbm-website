@@ -1,0 +1,728 @@
+{
+  "_readme": "Single source of truth for lbmcorporation.com. Edit this file, then run `python3 build.py`. Fields marked TODO must be confirmed by LBM before publishing.",
+  "company": {
+    "nameKo": "주식회사 엘비엠",
+    "nameEn": "LBM Corporation",
+    "domain": "www.lbmcorporation.com",
+    "tagline": "London · Bagel · Museum",
+    "taglineKo": "빵을 사랑하는 사람들이 모여 만드는 네 개의 공간",
+    "lede": "2021년 9월, 종로 안국의 첫 매장에서 시작했습니다. 지금은 네 개의 브랜드와 전국 17개의 직영 매장을 운영합니다.",
+    "vision": "매일 가고 싶은, 가장 가까운 박물관",
+    "visionBody": "브랜드 기획 · 마케팅 · 경영 · 신사업 전문가들이 모여 브랜드와 상품 기획 노하우를 기반으로 다양한 형태의 직영 베이커리 사업을 운영합니다.",
+    "ceo": "서혜욱",
+    "founded": "2022년 2월",
+    "firstStore": "2021년 9월 · 런던베이글뮤지엄 안국점",
+    "address": "서울 종로구 율곡로 45",
+    "email": "contact@londonbagel.com",
+    "footerLegal": "All Rights Reserved © LBM CO., LTD.",
+    "profile": [
+      [
+        "회사명",
+        "주식회사 엘비엠 (LBM Corporation)"
+      ],
+      [
+        "대표이사",
+        "서혜욱"
+      ],
+      [
+        "본사 소재지",
+        "서울특별시 종로구 율곡로 45"
+      ],
+      [
+        "설립일",
+        "2022년 2월"
+      ],
+      [
+        "첫 매장 오픈",
+        "2021년 9월 · 런던베이글뮤지엄 안국점"
+      ],
+      [
+        "사업 형태",
+        "온·오프라인 직영 베이커리 카페"
+      ],
+      [
+        "보유 브랜드",
+        "4개 브랜드 · 런던베이글뮤지엄, 카페 레이어드, 카페 하이웨스트, 아티스트베이커리"
+      ]
+    ],
+    "scale": [
+      [
+        "700+",
+        "임직원 수"
+      ],
+      [
+        "17",
+        "전국 직영 매장"
+      ],
+      [
+        "4",
+        "보유 브랜드"
+      ]
+    ],
+    "profileProse": "2022년 2월 설립. 대표이사 서혜욱. 본사는 서울특별시 종로구 율곡로 45에 있습니다. 첫 매장은 2021년 9월 문을 연 London Bagel Museum 안국점이며, 지금은 London Bagel Museum과 café Layered, café highwaist, Artist Bakery 네 개 브랜드를 온·오프라인 직영으로 운영합니다."
+  },
+  "values": [
+    {
+      "en": "IN-HOUSE",
+      "ko": "직접 짓는 공간",
+      "body": "인테리어·가구·소품 등 모든 VMD 디테일을 In-House 팀이 직접 만듭니다. 17개 매장이 저마다 다른 이유입니다."
+    },
+    {
+      "en": "TEXTURE",
+      "ko": "매일 굽는 식감",
+      "body": "클래식한 레시피를 아시아인의 입맛에 맞춰 다시 풀어냅니다. 모든 매장에서 매일 새로 굽습니다."
+    },
+    {
+      "en": "VIBE",
+      "ko": "활기 있는 태도",
+      "body": "직원들의 응대부터 매장에 흐르는 음악까지. 브랜드의 무드는 사람에게서 먼저 나온다고 믿습니다."
+    },
+    {
+      "en": "CONSISTENCY",
+      "ko": "한결같은 품질",
+      "body": "제조와 온도 관리에 흐트러짐이 없도록. 전 매장을 직영으로 운영하는 이유입니다."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2021",
+      "head": "시작",
+      "body": "런던베이글뮤지엄 안국점 오픈. 첫 매장."
+    },
+    {
+      "year": "2022",
+      "head": "법인 설립",
+      "body": "주식회사 엘비엠 설립. 런던베이글뮤지엄 도산점 오픈."
+    },
+    {
+      "year": "2023",
+      "head": "In-Mall 진출",
+      "body": "제주 · 잠실 오픈. 카페 레이어드 · 카페 하이웨스트 인수. 아티스트베이커리 안국점 오픈."
+    },
+    {
+      "year": "2024",
+      "head": "본격적인 확장",
+      "body": "수원 스타필드 · 여의도 더현대서울 오픈."
+    },
+    {
+      "year": "2025",
+      "head": "전국 네트워크",
+      "body": "인천 오픈. 임직원 700명 이상 규모로 성장."
+    },
+    {
+      "year": "2026",
+      "head": "탄탄한 성장 궤도",
+      "body": "아티스트베이커리 확장. 런던베이글뮤지엄 부산 첫 출점."
+    }
+  ],
+  "brands": [
+    {
+      "slug": "london-bagel-museum",
+      "nameEn": "London Bagel Museum",
+      "nameKo": "런던베이글뮤지엄",
+      "category": "FLAGSHIP BRAND",
+      "categoryKo": "플래그십 브랜드",
+      "logo": "logo-lbm.png",
+      "tagline": "런던의 무드를 유니크하게 재해석한 공간에서 빵을 사랑하는 사람들과 함께하는 브랜드. 2021년 이후 국내 프리미엄 베이커리 트렌드의 시작점.",
+      "story": "London Bagel Museum(런던베이글뮤지엄)은 브랜드의 크리에이티브 디렉터, 료가 사랑하는 세 단어에서부터 시작되었습니다.\n\n그녀는 런던 여행 중 한 카페에서 강렬한 에너지를 느낍니다. 어느 도시에서도 경험하지 못했던 친절하고 활기찬 무드는 지금 London Bagel Museum의 '바이브'로 자리 잡았습니다. 료에게 베이글은 매일 먹어도 싫증나지 않는 빵입니다. 베이글에 그녀의 취향을 더하며 쫄깃하고 신선한, 전례없던 식감의 브레드 20여종이 세상에 나왔습니다. 누군가에겐 박물관(Museum)은 무겁고, 격식을 갖춰야 하는, 다가가기 어려운 공간일지 모릅니다. 그러나 헤아리기 어려울만큼 누적된 시간의 결과물이 모인 매력적인 곳이기도 하죠. 우리의 '뮤지엄'은 매일 가고 싶은 가장 가까운 박물관이 되었습니다.\n\n생동감이 넘치는 동시에 세월의 흐름을 깊은 무게감으로 풀어내는 브랜드, 우리가 잘 하는 것을 자기답게 표현하는 브랜드, 브랜드가 곧 장르가 되는 브랜드. 이것이 London Bagel Museum이 전하고 싶은 정체성이자 메시지입니다.",
+      "palette": {
+        "bg": "#1A120C",
+        "accent": "#B8813E",
+        "deep": "#542B15",
+        "mark": "#7B1A2B",
+        "paper": "#F2E7D2"
+      },
+      "instagram": "https://www.instagram.com/london.bagel.museum/",
+      "catchtable": "https://app.catchtable.co.kr/ct/shop/london_bagel_museum_anguk",
+      "hero": [
+        "lbm-a",
+        "lbm-b",
+        "lbm-c"
+      ],
+      "texture": "tex-lbm",
+      "locations": [
+        {
+          "id": "lbm-anguk",
+          "name": "안국점",
+          "nameEn": "Anguk",
+          "address": "서울 종로구 북촌로4길 20",
+          "opened": "2021.09",
+          "hours": "매일 07:30 – 19:00 · 빵 소진 시 조기 마감",
+          "note": "브랜드의 첫 매장이자 정체성이 가장 짙게 남아 있는 공간. 과거와 현대를 아우르는 지역, 종로 계동에 자리합니다.",
+          "catchtable": "https://app.catchtable.co.kr/ct/shop/london_bagel_museum_anguk",
+          "geo": [
+            37.578644,
+            126.98549
+          ]
+        },
+        {
+          "id": "lbm-dosan",
+          "name": "도산점",
+          "nameEn": "Dosan",
+          "address": "서울 강남구 언주로168길 33",
+          "opened": "2022.09",
+          "hours": "매일 08:00 – 18:00 · 연중무휴",
+          "note": "서울에서 가장 트렌디한 거리, 압구정에 자리한 단독 매장. 야외 테라스와 복층 구성으로 이국적인 경험을 전합니다.",
+          "catchtable": "https://app.catchtable.co.kr/ct/shop/london_bagel_museum_dosan",
+          "geo": [
+            37.526215,
+            127.035269
+          ]
+        },
+        {
+          "id": "lbm-jeju",
+          "name": "제주점",
+          "nameEn": "Jeju",
+          "address": "제주 제주시 구좌읍 동복로 85",
+          "opened": "2023.04",
+          "hours": "매일 08:00 – 18:00",
+          "note": "구좌읍 동복리의 대형 매장. café Layered와 나란히 서서 제주 여행의 한 코스가 되었습니다.",
+          "catchtable": "https://app.catchtable.co.kr/ct/shop/london_bagel_museum_jeju",
+          "geo": [
+            33.546437,
+            126.716736
+          ]
+        },
+        {
+          "id": "lbm-jamsil",
+          "name": "잠실점",
+          "nameEn": "Jamsil",
+          "address": "서울 송파구 올림픽로 300",
+          "opened": "2023.08",
+          "hours": "매일 10:30 – 22:00 · 연중무휴",
+          "note": "송파의 랜드마크 롯데월드몰 1층. 기존 입점 매장에서 쉽게 볼 수 없었던 빈티지 인테리어를 구현했습니다.",
+          "catchtable": "https://app.catchtable.co.kr/ct/shop/london_bagel_museum_jamsil",
+          "geo": [
+            37.513742,
+            127.104247
+          ]
+        },
+        {
+          "id": "lbm-suwon",
+          "name": "수원점",
+          "nameEn": "Suwon",
+          "address": "경기 수원시 장안구 수성로 175",
+          "opened": "2024.05",
+          "hours": "매일 10:00 – 22:00 · 연중무휴",
+          "note": "스타필드 수원 입점 매장. 서가와 긴 목재 테이블이 이어지는 도서관 같은 홀을 갖췄습니다.",
+          "catchtable": "https://app.catchtable.co.kr/ct/shop/london_bagel_museum_suwon",
+          "geo": [
+            37.287445,
+            126.991575
+          ]
+        },
+        {
+          "id": "lbm-yeouido",
+          "name": "여의도점",
+          "nameEn": "Yeouido",
+          "address": "서울 영등포구 여의대로 108",
+          "opened": "2024.11",
+          "hours": "매일 10:30 – 20:30",
+          "note": "더현대 서울 입점 매장. 벽돌 파사드를 그대로 옮겨온 인몰 매장의 기준점입니다.",
+          "catchtable": "https://app.catchtable.co.kr/ct/search?keyword=%EB%9F%B0%EB%8D%98%EB%B2%A0%EC%9D%B4%EA%B8%80%EB%AE%A4%EC%A7%80%EC%97%84%20%EC%97%AC%EC%9D%98%EB%8F%84",
+          "geo": [
+            37.525964,
+            126.928418
+          ]
+        },
+        {
+          "id": "lbm-incheon",
+          "name": "인천점",
+          "nameEn": "Incheon",
+          "address": "인천 미추홀구 연남로 35 지하 1층",
+          "opened": "2025.07",
+          "hours": "월–목 10:30 – 20:00 · 금–일 10:30 – 20:30",
+          "note": "롯데백화점 인천점 지하 1층. 높은 목조 트러스 아래 넓은 베이글 매대를 펼쳤습니다.",
+          "catchtable": "https://app.catchtable.co.kr/ct/shop/LONDONBAGELMUSEUMIncheon",
+          "geo": [
+            37.449517,
+            126.701361
+          ]
+        },
+        {
+          "id": "lbm-seomyeon",
+          "name": "서면점",
+          "nameEn": "Seomyeon",
+          "address": "부산 부산진구 가야대로 772 지하 1층",
+          "opened": "2026.06",
+          "hours": "월–목 10:30 – 20:00 · 금–일 10:30 – 20:30",
+          "note": "부산 첫 출점 매장. 가랜드와 붉은 문, 벽돌로 런던의 골목을 부산 한가운데 옮겼습니다.",
+          "catchtable": "https://app.catchtable.co.kr/ct/search?keyword=%EB%9F%B0%EB%8D%98%EB%B2%A0%EC%9D%B4%EA%B8%80%EB%AE%A4%EC%A7%80%EC%97%84%20%EC%84%9C%EB%A9%B4",
+          "geo": [
+            35.156828,
+            129.058739
+          ]
+        }
+      ],
+      "quote": {
+        "text": "정통이 아닌 취향으로 시작한 브랜드의 브레드와 무드는\n극강의 밀도와 개성을 지니게 된 것 같아요.",
+        "by": "료 (이효정)",
+        "role": "London Bagel Museum 브랜드 소개서 · 2023"
+      },
+      "space": {
+        "head": "층층이 쌓인 시간",
+        "body": "인테리어와 익스테리어, 가구와 소품, 벽에 걸리는 액자 한 장까지 In-House 팀이 직접 만듭니다. 벽돌과 목재, 오래 쓴 가구, 손으로 쓴 사인이 겹치며 매장마다 다른 표정이 생깁니다. 같은 브랜드지만 같은 매장은 없습니다."
+      },
+      "craft": {
+        "head": "매일 굽는 베이글",
+        "body": "클래식한 베이글을 아시아인의 입맛에 맞춰 다시 풀어냅니다. 홈메이드 크림치즈와 함께, 전 매장에서 매일 새로 굽습니다.",
+        "kinds": "베이글 · 크림치즈 · 스프"
+      },
+      "ig": {
+        "handle": "london.bagel.museum",
+        "name": "런던 베이글 뮤지엄",
+        "followers": "11.2만",
+        "bio": "안국 | 도산 | 제주 | 잠실 | 수원 | 여의도 | 인천 | 부산\n👇 웨이팅 / 단체주문 문의",
+        "link": "pf.kakao.com/_CgxIxib/chat"
+      }
+    },
+    {
+      "slug": "cafe-layered",
+      "nameEn": "café Layered",
+      "nameKo": "카페 레이어드",
+      "category": "PREMIUM SCONE CAFE",
+      "categoryKo": "프리미엄 스콘 카페",
+      "logo": "logo-cl.png",
+      "tagline": "유럽의 빈티지한 무드를 겸해 유럽의 한 가정집의 따스함을 지닌 스콘 전문 브랜드. 2017년 안국점에서 시작된 국내 프리미엄 베이커리의 원조.",
+      "story": "2017년 안국에서 시작한 국내 첫 프리미엄 스콘 카페. 북촌 한옥 골목의 작은 자리에서 출발해 지금은 다섯 개 매장으로 이어집니다. 갓 구운 스콘과 홈메이드 잼, 그날의 계절 꽃을 매일 새로 들입니다.",
+      "palette": {
+        "bg": "#2A1608",
+        "accent": "#E59B14",
+        "deep": "#723D1E",
+        "mark": "#9A5B25",
+        "paper": "#FDF3DF"
+      },
+      "instagram": "https://www.instagram.com/cafe_layered/",
+      "catchtable": "https://app.catchtable.co.kr/ct/shop/cafelayered_anguk",
+      "hero": [
+        "cl-a",
+        "cl-b",
+        "cl-c"
+      ],
+      "texture": "tex-cl",
+      "locations": [
+        {
+          "id": "cl-anguk",
+          "name": "안국점",
+          "nameEn": "Anguk",
+          "address": "서울 종로구 북촌로2길 2-3",
+          "opened": "2017.06",
+          "hours": "매일 08:00 – 22:00",
+          "note": "북촌 한옥 골목에 자리한 브랜드의 시작점. 국내 프리미엄 스콘 카페의 첫 장.",
+          "catchtable": "https://app.catchtable.co.kr/ct/shop/cafelayered_anguk",
+          "geo": [
+            37.577887,
+            126.986211
+          ]
+        },
+        {
+          "id": "cl-yeonnam",
+          "name": "연남점",
+          "nameEn": "Yeonnam",
+          "address": "서울 마포구 성미산로 161-4",
+          "opened": "2018.11",
+          "hours": "매일 11:00 – 22:00",
+          "note": "붉은 벽돌 건물 전체를 쓰는 연남동 매장. 층마다 다른 빈티지 무드를 쌓아 올렸습니다.",
+          "catchtable": "https://app.catchtable.co.kr/ct/shop/cafelayered_yeonnam",
+          "geo": [
+            37.564985,
+            126.924188
+          ]
+        },
+        {
+          "id": "cl-hyundai",
+          "name": "더현대서울점",
+          "nameEn": "The Hyundai",
+          "address": "서울 영등포구 여의대로 108 지하 1층",
+          "opened": "2021.03",
+          "hours": "월–목 10:30 – 20:00 · 금–일 10:30 – 20:30",
+          "note": "백화점 입점 최초의 파티세리 매장. 온실 같은 화이트 톤으로 재해석했습니다.",
+          "catchtable": "https://app.catchtable.co.kr/ct/shop/cafelayered_thehyundai",
+          "geo": [
+            37.525964,
+            126.928418
+          ]
+        },
+        {
+          "id": "cl-centum",
+          "name": "신세계센텀시티점",
+          "nameEn": "Centum City",
+          "address": "부산 해운대구 센텀남대로 35 지하 1층",
+          "opened": "2022.08",
+          "hours": "월–목 10:30 – 20:00 · 금–일 10:30 – 20:30",
+          "note": "부산 센텀시티 매장. 스콘과 소금빵을 함께 굽는 남부권 거점.",
+          "catchtable": "https://app.catchtable.co.kr/ct/shop/cafelayered_centumcityT",
+          "geo": [
+            35.169065,
+            129.129654
+          ]
+        },
+        {
+          "id": "cl-jeju",
+          "name": "제주점",
+          "nameEn": "Jeju",
+          "address": "제주 제주시 구좌읍 동복로 85 주1동 1층",
+          "opened": "2023.12",
+          "hours": "매일 08:00 – 18:00",
+          "note": "바다를 마주한 대형 매장. 흰 벽과 통창 너머로 동복리 해안이 그대로 들어옵니다.",
+          "catchtable": "https://app.catchtable.co.kr/ct/shop/cafe_layered_jeju",
+          "geo": [
+            33.546437,
+            126.716736
+          ]
+        }
+      ],
+      "quote": {
+        "text": "창가의 램프와 오래된 가구,\n그날의 꽃.",
+        "by": "café Layered",
+        "role": "",
+        "statement": true
+      },
+      "space": {
+        "head": "창마다 다른 빛",
+        "body": "북촌의 한옥 골목, 연남의 붉은 벽돌, 제주의 바다. 매장마다 다른 창과 다른 빛을 그대로 둡니다. 가구도 조명도 자리마다 다르게 고릅니다."
+      },
+      "craft": {
+        "head": "갓 구운 스콘",
+        "body": "국내 첫 프리미엄 스콘 카페. 홈메이드 잼과 함께 내고, 케이크는 하나씩 손으로 올립니다.",
+        "kinds": "홈메이드 스콘 · 케이크"
+      }
+    },
+    {
+      "slug": "cafe-highwaist",
+      "nameEn": "café highwaist",
+      "nameKo": "카페 하이웨스트",
+      "category": "CHARACTER CAKE CAFE",
+      "categoryKo": "캐릭터 케이크 카페",
+      "logo": "logo-hw.png",
+      "tagline": "영국의 작은 골목 카페처럼 온기 있는 빈티지한 소품과 귀여운 동물케이크, 레터링케이크를 즐길 수 있는 케이크 전문 브랜드.",
+      "story": "2020년 익선동에서 시작한 케이크 전문 브랜드. 영국의 작은 골목 카페처럼, 오래 쓴 가구와 손으로 쓴 레터링, 하나씩 표정이 다른 동물 케이크가 놓인 자리를 만듭니다.",
+      "palette": {
+        "bg": "#2B211B",
+        "accent": "#D6A6A6",
+        "deep": "#6E5340",
+        "mark": "#E5D19F",
+        "paper": "#FDF6EA"
+      },
+      "instagram": "https://www.instagram.com/cafe_highwaist",
+      "catchtable": "https://app.catchtable.co.kr/ct/shop/cafehighwaist_ikseonT",
+      "hero": [
+        "hw-a",
+        "hw-b",
+        "hw-c"
+      ],
+      "texture": "tex-hw",
+      "locations": [
+        {
+          "id": "hw-ikseon",
+          "name": "익선점",
+          "nameEn": "Ikseon",
+          "address": "서울 종로구 돈화문로11다길 18",
+          "opened": "2020.02",
+          "hours": "매일 09:00 – 22:00",
+          "note": "익선동 골목의 첫 매장. 유리 지붕 아래 온실 같은 홀에 케이크 쇼케이스가 이어집니다.",
+          "catchtable": "https://app.catchtable.co.kr/ct/shop/cafehighwaist_ikseonT",
+          "geo": [
+            37.573729,
+            126.990053
+          ]
+        },
+        {
+          "id": "hw-pangyo",
+          "name": "현대백화점 판교점",
+          "nameEn": "Pangyo",
+          "address": "경기 성남시 분당구 판교역로146번길 20 현대백화점 판교점 지하 1층",
+          "opened": "2021.09",
+          "hours": "월–목 10:30 – 20:00 · 금–일 10:30 – 21:00",
+          "note": "현대백화점 판교점 지하 1층. 크림색 캐비닛과 레이스, 동물 케이크가 모인 자리.",
+          "catchtable": "https://app.catchtable.co.kr/ct/shop/cafehighwaist_pangyo",
+          "geo": [
+            37.3928,
+            127.111991
+          ]
+        }
+      ],
+      "quote": {
+        "text": "영국의 작은 골목 카페처럼,\n온기 있는 자리.",
+        "by": "café highwaist",
+        "role": "",
+        "statement": true
+      },
+      "space": {
+        "head": "유리 지붕 아래",
+        "body": "온실 같은 홀에 크림색 캐비닛과 손으로 쓴 레터링이 놓입니다. 영국의 작은 골목 카페처럼, 오래 앉아 있어도 재촉받지 않는 자리를 만듭니다."
+      },
+      "craft": {
+        "head": "표정이 다른 케이크",
+        "body": "동물 케이크와 레터링 케이크. 하나씩 손으로 그려서 같은 얼굴이 나오지 않습니다.",
+        "kinds": "동물케이크 · 레터링케이크 · 스콘"
+      }
+    },
+    {
+      "slug": "artist-bakery",
+      "nameEn": "Artist Bakery",
+      "nameKo": "아티스트베이커리",
+      "category": "CRAFT BAKERY",
+      "categoryKo": "크래프트 베이커리",
+      "logo": "logo-ab.png",
+      "tagline": "빵을 진심으로 좋아하고 사랑하는 사람들이 모여 아티스트의 마인드로 매일 프레시한 베이커리를 만들고 바이브를 나누는 브랜드.",
+      "story": "\"I loved everything about bread and there is no bad bread in the world.\" 나는 빵의 모든 부분이 좋았다. 그 이유를 알고 보니 세상에 나쁜 빵은 없었기 때문이다. 자신에 대한 믿음, 일에 대한 프로의식과 자부심. Artist Bakery의 베이커와 스텝 모두가 '아티스트'라는 진정성 있는 마음으로 매일의 빵을 굽습니다.",
+      "palette": {
+        "bg": "#0B0B0B",
+        "accent": "#8FA2D4",
+        "deep": "#19254B",
+        "mark": "#8E2231",
+        "paper": "#FFFFFF"
+      },
+      "instagram": "https://www.instagram.com/artistbakery/",
+      "catchtable": "https://app.catchtable.co.kr/ct/shop/artistbakery",
+      "hero": [
+        "ab-a",
+        "ab-b",
+        "ab-c"
+      ],
+      "texture": "tex-ab",
+      "moodWords": [
+        "Natural Vibes",
+        "Friendly",
+        "Local",
+        "Lively"
+      ],
+      "locations": [
+        {
+          "id": "ab-anguk",
+          "name": "안국점",
+          "nameEn": "Anguk",
+          "address": "서울 종로구 율곡로 45",
+          "opened": "2023.09",
+          "hours": "매일 07:30 – 20:00 · 연중무휴",
+          "note": "종로 안국의 첫 매장. 흰 타일과 검은 활자, 매일 굽는 소금빵과 바게트로 채운 로컬 베이커리.",
+          "catchtable": "https://app.catchtable.co.kr/ct/shop/artistbakery",
+          "geo": [
+            37.576307,
+            126.984349
+          ]
+        },
+        {
+          "id": "ab-yeouido",
+          "name": "여의도점",
+          "nameEn": "Yeouido",
+          "address": "서울 영등포구 여의대로 108 지하 1층",
+          "opened": "2026.02",
+          "hours": "월–목 10:30 – 20:00 · 금–일 10:30 – 20:30",
+          "note": "더현대 서울 입점 매장. 오픈 이래 매일 Sold Out을 기록하며 줄이 이어지는 곳.",
+          "catchtable": "https://app.catchtable.co.kr/ct/search?keyword=%EC%95%84%ED%8B%B0%EC%8A%A4%ED%8A%B8%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EC%97%AC%EC%9D%98%EB%8F%84",
+          "geo": [
+            37.525964,
+            126.928418
+          ]
+        }
+      ],
+      "quote": {
+        "text": "한 사람 한 사람이 아티스트예요.\n말투, 글씨체, 습관, 모든 게 각자의 예술이죠.",
+        "by": "료 (이효정)",
+        "role": "London Bagel Museum 브랜드 총괄 디렉터 · 사례뉴스 인터뷰 · 2025",
+        "source": "http://www.casenews.co.kr/news/articleView.html?idxno=18156"
+      },
+      "space": {
+        "head": "로컬 카페테리아의 무드",
+        "body": "흰 타일과 검은 활자, 나무 매대와 철제 선반. 장식을 덜어내고 재료와 도구를 그대로 드러냅니다. 굽는 사람이 보이는 자리, 빵이 먼저 보이는 동선. 자유롭고 러프한 태도를 공간으로 옮겼습니다."
+      },
+      "craft": {
+        "head": "소금빵과 바게트",
+        "body": "매일 아침 굽고 그날 다 팝니다. 베이커와 스텝 모두가 '아티스트'라는 마음으로 반죽을 잡습니다.",
+        "kinds": "소금빵 · 바게트 · 스프"
+      }
+    }
+  ],
+  "esg": {
+    "_note": "ESG는 이 사이트에서 가장 중요한 영역입니다. LBM이 실제 근거(사진·날짜·출처)를 제공한 항목만 게시하십시오. 아래 두 건은 LBM이 제공한 사진 폴더('서울재활병원 기부')에 근거합니다. 본문·금액·정확한 날짜는 LBM 확인 후 채워 주십시오.",
+    "lede": "London Bagel Museum, Artist Bakery, café Layered, café highwaist. 네 브랜드가 아니라 하나의 LBM으로서 지역사회와 함께해 온 기록입니다.",
+    "articles": [
+      {
+        "id": "seoul-rehab-2026",
+        "date": "2026",
+        "dateExact": "TODO",
+        "category": "COMMUNITY",
+        "title": "서울재활병원 기부",
+        "summary": "TODO — LBM 확인 후 본문 입력",
+        "images": [
+          "esg/seoul-rehab-2026-1.jpg"
+        ],
+        "source": "",
+        "status": "draft",
+        "cat": "esg"
+      },
+      {
+        "id": "seoul-rehab-2025",
+        "date": "2025",
+        "dateExact": "TODO",
+        "category": "COMMUNITY",
+        "title": "서울재활병원 기부",
+        "summary": "TODO — LBM 확인 후 본문 입력",
+        "images": [
+          "esg/seoul-rehab-2025-1.jpg"
+        ],
+        "source": "",
+        "status": "draft",
+        "cat": "esg"
+      }
+    ],
+    "sections": [
+      {
+        "id": "notice",
+        "label": "공지사항",
+        "en": "Notice"
+      },
+      {
+        "id": "store",
+        "label": "신규 매장",
+        "en": "Openings"
+      },
+      {
+        "id": "brand",
+        "label": "브랜드 소식",
+        "en": "Brand"
+      },
+      {
+        "id": "esg",
+        "label": "ESG",
+        "en": "ESG"
+      },
+      {
+        "id": "press",
+        "label": "보도자료",
+        "en": "Press"
+      }
+    ]
+  },
+  "instagram": {
+    "_note": "실제 피드는 _claude/ig_sync.py 가 공식 API로 가져와 data/instagram.json 에 씁니다. README-INSTAGRAM.md 참고. API는 고정 상태를 주지 않으므로 pinned 는 여기서 지정합니다 (shortcode 또는 게시물 ID).",
+    "pinned": {
+      "london-bagel-museum": [],
+      "cafe-layered": [],
+      "cafe-highwaist": [],
+      "artist-bakery": []
+    }
+  },
+  "footer": {
+    "links": [
+      {
+        "label": "개인정보처리방침",
+        "href": "#"
+      },
+      {
+        "label": "이용약관",
+        "href": "#"
+      },
+      {
+        "label": "채용",
+        "href": "#"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "k": "설립",
+      "v": "2022년 2월"
+    },
+    {
+      "k": "대표이사",
+      "v": "서혜욱"
+    },
+    {
+      "k": "첫 매장",
+      "v": "2021년 9월 · 런던베이글뮤지엄 안국점"
+    },
+    {
+      "k": "브랜드",
+      "v": "4개 · 전 매장 직영"
+    },
+    {
+      "k": "매장",
+      "v": "서울 · 경기 · 인천 · 부산 · 제주 17개점"
+    },
+    {
+      "k": "본사",
+      "v": "서울특별시 종로구 율곡로 45"
+    }
+  ],
+  "quotes": {
+    "hero": {
+      "text": "그때 깨달았어요.\n내가 원했던 건 명예도 돈도 아닌,\n아무 조건 없이 몰입할 수 있는 자유였다는 걸요.",
+      "by": "료 (이효정)",
+      "role": "London Bagel Museum 브랜드 총괄 디렉터 · 사례뉴스 인터뷰 · 2025",
+      "source": "http://www.casenews.co.kr/news/articleView.html?idxno=18156"
+    },
+    "museum": {
+      "text": "제가 있는 공간을 만들고 싶었어요.\n계획보다 감정, 트렌드보다 일상의 취향이 만든 결과죠.",
+      "by": "료 (이효정)",
+      "role": "London Bagel Museum 브랜드 총괄 디렉터 · 사례뉴스 인터뷰 · 2025",
+      "source": "http://www.casenews.co.kr/news/articleView.html?idxno=18156"
+    },
+    "closing": {
+      "text": "다르기 때문에 살아남을 수 있다는 믿음이\n저를 지탱해줬어요.",
+      "by": "료 (이효정)",
+      "role": "London Bagel Museum 브랜드 총괄 디렉터 · 사례뉴스 인터뷰 · 2025",
+      "source": "http://www.casenews.co.kr/news/articleView.html?idxno=18156"
+    },
+    "beauty": {
+      "text": "아름다움에 주목한다는 건 삶에 주목한다는 것.",
+      "by": "료 (이효정)",
+      "role": "산문집 『료의 생각 없는 생각』 · 열림원 2025",
+      "source": "http://www.casenews.co.kr/news/articleView.html?idxno=18156"
+    },
+    "density": {
+      "text": "정통이 아닌 취향으로 시작한 브랜드의 브레드와 무드는\n극강의 밀도와 개성을 지니게 된 것 같아요.",
+      "by": "료 (이효정)",
+      "role": "London Bagel Museum 브랜드 소개서 · 2023"
+    }
+  },
+  "characters": {
+    "lede": "매장 곳곳에서 만나는 얼굴들. 굿즈와 사인, 케이크 위에 그대로 올라갑니다.",
+    "items": [
+      {
+        "img": "char-adori",
+        "name": "아도리",
+        "brand": "London Bagel Museum",
+        "brandEn": "London Bagel Museum"
+      },
+      {
+        "img": "char-pogri",
+        "name": "포그리",
+        "brand": "London Bagel Museum",
+        "brandEn": "London Bagel Museum"
+      },
+      {
+        "img": "char-ray",
+        "name": "레이",
+        "brand": "café Layered",
+        "brandEn": "café Layered"
+      },
+      {
+        "img": "char-uncle",
+        "name": "엉클브레드",
+        "brand": "café Layered",
+        "brandEn": "café Layered"
+      },
+      {
+        "img": "char-hunwoong",
+        "name": "훈이 · 웅이",
+        "brand": "café Layered · 하이웨스트",
+        "brandEn": "café Layered · café highwaist"
+      },
+      {
+        "img": "char-hi",
+        "name": "하이",
+        "brand": "café highwaist",
+        "brandEn": "café highwaist"
+      },
+      {
+        "img": "char-guny",
+        "name": "거니",
+        "brand": "아티스트 베이커리",
+        "brandEn": "Artist Bakery"
+      }
+    ]
+  }
+}
