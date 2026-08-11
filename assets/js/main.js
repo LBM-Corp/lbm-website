@@ -94,9 +94,9 @@
   }
 
   /* ---------- slow image rotation ----------
-     Board note: v1 held 3s. This holds HOLD ms per frame and cross-fades
+     Holds HOLD ms per frame and cross-fades
      over 3.4s (CSS), with each panel offset so they never turn together. */
-  /* Board note: v1 held 3s. Holds are long here, but the FIRST turn comes
+  /* Holds are long here, but the FIRST turn comes
      quickly so the rotation is visibly alive. Driven by elapsed time rather
      than raw intervals, so a backgrounded or throttled tab resumes correctly
      instead of silently dropping every tick. */
@@ -256,8 +256,7 @@
   });
 
   /* ---------- quotes: words assemble into place ----------
-     The board asked for words drifting and resolving. This is that idea
-     applied where it reads as intent rather than decoration: each word
+     Words drift and resolve — applied where it reads as intent rather than decoration: each word
      lifts out of a blur and settles, left to right. */
   var quotes = $$('.quote blockquote, .band--quote blockquote');
   if (quotes.length && !reduce) {

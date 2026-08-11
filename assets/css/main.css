@@ -22,7 +22,7 @@
 
   --txt:     #F4E8D3;
   --txt-2:   rgba(244,232,211,.8);
-  --txt-3:   rgba(244,232,211,.56);
+  --txt-3:   rgba(244,232,211,.74);
   --rule:    rgba(244,232,211,.24);
 
   --pk:      #3A2214;
@@ -41,19 +41,19 @@
 }
 
 [data-brand="london-bagel-museum"]{--bg:#3B2417;--bg-2:#492E1D;--paper:#F2E7D2;--accent:#D29B5D;--deep:#5C3A22;--mark:#7B1A2B;
-  --txt:#F4E8D3;--txt-2:rgba(244,232,211,.8);--txt-3:rgba(244,232,211,.56);--rule:rgba(244,232,211,.24);
+  --txt:#F4E8D3;--txt-2:rgba(244,232,211,.8);--txt-3:rgba(244,232,211,.74);--rule:rgba(244,232,211,.24);
   --pk:#3A2214;--pk-2:rgba(58,34,20,.78);--pk-3:rgba(58,34,20,.52);--pr:rgba(58,34,20,.22)}
 [data-brand="cafe-layered"]{--bg:#46280F;--bg-2:#573316;--paper:#FDF3DF;--accent:#E5A83A;--deep:#723D1E;--mark:#9A5B25;
-  --txt:#F8ECD5;--txt-2:rgba(248,236,213,.8);--txt-3:rgba(248,236,213,.56);--rule:rgba(248,236,213,.24);
+  --txt:#F8ECD5;--txt-2:rgba(248,236,213,.8);--txt-3:rgba(248,236,213,.74);--rule:rgba(248,236,213,.24);
   --pk:#3A2109;--pk-2:rgba(58,33,9,.78);--pk-3:rgba(58,33,9,.52);--pr:rgba(58,33,9,.22)}
 [data-brand="cafe-highwaist"]{--bg:#4A3A2E;--bg-2:#5A4839;--paper:#FDF6EA;--accent:#DDAFAF;--deep:#6E5340;--mark:#E5D19F;
-  --txt:#F7EBDD;--txt-2:rgba(247,235,221,.82);--txt-3:rgba(247,235,221,.58);--rule:rgba(247,235,221,.24);
+  --txt:#F7EBDD;--txt-2:rgba(247,235,221,.82);--txt-3:rgba(247,235,221,.74);--rule:rgba(247,235,221,.24);
   --pk:#3A2C22;--pk-2:rgba(58,44,34,.78);--pk-3:rgba(58,44,34,.52);--pr:rgba(58,44,34,.22)}
 [data-brand="artist-bakery"]{--bg:#161616;--bg-2:#212121;--paper:#FFFFFF;--accent:#A9BCE8;--deep:#19254B;--mark:#8E2231;
-  --txt:#F2F2F2;--txt-2:rgba(242,242,242,.78);--txt-3:rgba(242,242,242,.5);--rule:rgba(242,242,242,.2);
+  --txt:#F2F2F2;--txt-2:rgba(242,242,242,.78);--txt-3:rgba(242,242,242,.74);--rule:rgba(242,242,242,.2);
   --pk:#0A0A0A;--pk-2:rgba(10,10,10,.76);--pk-3:rgba(10,10,10,.5);--pr:rgba(10,10,10,.18)}
 [data-brand="esg"]{--bg:#F4F0E4;--bg-2:#EBE5D5;--paper:#1D1913;--accent:#7B1A2B;--deep:#3A2A1E;--mark:#7B1A2B;
-  --txt:#1D1913;--txt-2:rgba(29,25,19,.74);--txt-3:rgba(29,25,19,.5);--rule:rgba(29,25,19,.2);
+  --txt:#1D1913;--txt-2:rgba(29,25,19,.74);--txt-3:rgba(29,25,19,.70);--rule:rgba(29,25,19,.2);
   --pk:#F4F0E4;--pk-2:rgba(244,240,228,.78);--pk-3:rgba(244,240,228,.5);--pr:rgba(244,240,228,.22)}
 
 *,*::before,*::after{box-sizing:border-box}
@@ -885,7 +885,7 @@ body::after{display:none!important}
 .hdr__mark{gap:12px;align-items:center}
 
 /* ============================================================
-   BACK TO THE COLOUR BOARD
+   BRAND GROUNDS
    Three of four grounds were colours I mixed by eye. These are the
    board's own swatches. Highwaist has no dark tone on the board, so
    it runs light — that is the brand, not an inconsistency.
@@ -952,7 +952,7 @@ body::after{display:none!important}
    ============================================================ */
 [data-brand="esg"]{
   --bg:#F4F0E4;--bg-2:#EBE5D5;--paper:#1D1913;--accent:#7B1A2B;--deep:#3A2A1E;--mark:#7B1A2B;
-  --txt:#1D1913;--txt-2:rgba(29,25,19,.76);--txt-3:rgba(29,25,19,.52);--rule:rgba(29,25,19,.22);
+  --txt:#1D1913;--txt-2:rgba(29,25,19,.76);--txt-3:rgba(29,25,19,.70);--rule:rgba(29,25,19,.22);
   --pk:#F4F0E4;--pk-2:rgba(244,240,228,.8);--pk-3:rgba(244,240,228,.55);--pr:rgba(244,240,228,.24)}
 [data-brand="esg"] .hdr,[data-brand="esg"] .hdr.is-stuck{color:var(--txt);background:var(--bg)}
 [data-brand="esg"] .hdr__logo{filter:brightness(0)}
@@ -1240,7 +1240,7 @@ body::after{display:none!important}
 .mast__name,.esgroom__name,.igp__at{font-family:"Cormorant Garamond",serif!important;font-weight:500}
 
 
-/* text-related fixes kept through the revert */
+/* typography refinements */
 .subnav{background:var(--bg)!important;backdrop-filter:none!important;
   border-bottom:1px solid var(--rule);border-top:0;box-shadow:none;top:74px!important;z-index:90}
 .subnav__brand{display:flex;align-items:center;height:26px;margin-right:auto}
@@ -1663,7 +1663,7 @@ body:not(.flat) section + section.sec--umber,
     color-mix(in srgb, var(--bg) 86%, #000) 100%)}
 
 /* ================================================================
-   FINAL SYSTEM v3 -- LIGHT EDITORIAL PARADIGM
+   EDITORIAL LAYER
    The banding paradigm is retired entirely. The site becomes what
    its two loved pages already are: light. One warm-paper family
    across pages (the Aesop model), photography as the only rich
@@ -1751,13 +1751,12 @@ body:not(.flat){background:
 .mega__go{color:var(--accent)}
 
 /* ================================================================
-   FINAL v4 -- synthesis of every directive in this project.
-   Main: dark, running the terracotta flow Ted chose (option B,
-   darkened on his instruction), slamming into the ivory newsroom.
-   LBM brand: his bourbon-and-wine recipe, strengthened until the
-   washes actually read. Layered: light with butter-and-blush flows.
-   AB: uniform cream with the blue tint he asked for. highwaist
-   frozen. Newsroom untouched. Numerals carry the point colour.
+   BRAND COLOUR LAYER
+   Main: dark terracotta flow, slamming into the ivory newsroom.
+   LBM brand: bourbon-and-wine, strengthened until the washes
+   actually read. Layered: light with butter-and-blush flows.
+   AB: uniform cream with a blue tint. highwaist frozen.
+   Newsroom untouched. Numerals carry the point colour.
    ================================================================ */
 
 /* MAIN PAGE -- the chosen flow, visible: espresso -> clay -> burnt
@@ -1814,7 +1813,7 @@ html[data-brand="london-bagel-museum"]:has(.hero) body{background:
 
 
 
-/* revert: Artist Bakery back to the v4 cream state */
+/* Artist Bakery: cream ground */
 [data-brand="artist-bakery"]{
   --bg:#F8F4EB;--bg-2:#EFE9DB;
   --txt:#16161A;--txt-2:rgba(22,22,26,.78);--txt-3:rgba(22,22,26,.52);
@@ -1858,7 +1857,7 @@ html[data-brand="london-bagel-museum"]:has(.hero) body{background:
 .art__nav{border-top:0;margin-top:14px;padding-top:0}
 
 /* ================================================================
-   FINAL v5 -- LANTERN LIGHT (the shipped colour scheme)
+   COLOUR SYSTEM — LANTERN LIGHT
    Derived by measurement from the site's own photography and the
    warm-bakery aesthetic boards: a glowing cream canvas, an amber
    bloom like an open oven door, one deep-roast band holding the
@@ -1869,7 +1868,7 @@ html[data-brand="london-bagel-museum"]:has(.hero) body{background:
    ================================================================ */
 html[data-brand="london-bagel-museum"]:has(.hero){
   --bg:#FBF0DA;--bg-2:#F3E3C2;
-  --txt:#3C2315;--txt-2:rgba(60,35,21,.80);--txt-3:rgba(60,35,21,.55);
+  --txt:#3C2315;--txt-2:rgba(60,35,21,.80);--txt-3:rgba(60,35,21,.70);
   --rule:rgba(60,35,21,.18);--accent:#8A5B3C}
 html[data-brand="london-bagel-museum"]:has(.hero) body{background:
   linear-gradient(115deg,
@@ -1928,13 +1927,13 @@ h1,h2,h3,.hero__title,.art__head{text-wrap:balance}
 /* hero fades in over its own dark stage, not the lantern cream */
 .hero{background:#20150C}
 
-/* ---- v5.1: the main-page ground goes dark resin oak ------------------
-   Ted's call: only this colour, darker -- oak table with dark resin.
+/* ---- Main page ground ----------------------------------------------
+   The company panel alone runs a darker ground.
    The lantern glow now falls on the tabletop; the roast band and the
    ivory newsroom cut stay exactly as approved. Main page only. */
 html[data-brand="london-bagel-museum"]:has(.hero){
   --bg:#3A2412;--bg-2:#4A2F17;
-  --txt:#F4E8D3;--txt-2:rgba(244,232,211,.82);--txt-3:rgba(244,232,211,.56);
+  --txt:#F4E8D3;--txt-2:rgba(244,232,211,.82);--txt-3:rgba(244,232,211,.74);
   --rule:rgba(244,232,211,.20);--accent:#C08B4A}
 html[data-brand="london-bagel-museum"]:has(.hero) body{background:
   linear-gradient(115deg,
@@ -1947,14 +1946,14 @@ html[data-brand="london-bagel-museum"]:has(.hero) body{background:
     #3A2412 64%,
     #201207 100%)}
 
-/* ---- v5.2: resin is the company panel only; brand page goes wine -----
-   Correction: the resin belongs to the LBM Corporation panel alone. The
+/* ---- Company panel and brand-page ground ----------------------------
+   The dark panel belongs to the LBM Corporation panel alone. The
    rest of the main page returns to lantern cream. The brand page drops
-   its dusk cream entirely for a wine ground -- Ted's call. */
+   its dusk cream entirely for a wine ground. */
 /* main page: lantern tokens and ground restored */
 html[data-brand="london-bagel-museum"]:has(.hero){
   --bg:#FBF0DA;--bg-2:#F3E3C2;
-  --txt:#3C2315;--txt-2:rgba(60,35,21,.80);--txt-3:rgba(60,35,21,.55);
+  --txt:#3C2315;--txt-2:rgba(60,35,21,.80);--txt-3:rgba(60,35,21,.70);
   --rule:rgba(60,35,21,.18);--accent:#8A5B3C}
 html[data-brand="london-bagel-museum"]:has(.hero) body{background:
   linear-gradient(115deg,
@@ -1985,7 +1984,7 @@ html[data-brand="london-bagel-museum"]:has(.hero) #company .eyebrow{color:#E4B15
 /* LBM brand page: wine ground, cream retired */
 html[data-brand="london-bagel-museum"]:not(:has(.hero)){
   --bg:#3F131B;--bg-2:#4E1822;
-  --txt:#F4E8D3;--txt-2:rgba(244,232,211,.82);--txt-3:rgba(244,232,211,.56);
+  --txt:#F4E8D3;--txt-2:rgba(244,232,211,.82);--txt-3:rgba(244,232,211,.74);
   --rule:rgba(244,232,211,.20);--accent:#D3A15E}
 [data-brand="london-bagel-museum"] body:not(:has(.hero)){background:
   linear-gradient(115deg,
@@ -2006,8 +2005,8 @@ html[data-brand="london-bagel-museum"]:not(:has(.hero)){
 [data-brand="london-bagel-museum"] .subnav__brand img{
   filter:brightness(0) invert(1);opacity:.92}
 
-/* ---- v5.3: chestnut replaces resin; faces band lightens & labels read -
-   Agent-reviewed pick (candidate B): unambiguously brown, cream text
+/* ---- Company panel: chestnut; characters band ------------------------
+   Chestnut: unambiguously brown, cream text
    >=8:1 everywhere, one register between panel and band so the page
    steps anchor-dark -> band-mid. Main page only. */
 html[data-brand="london-bagel-museum"]:has(.hero) #company{
@@ -2031,7 +2030,7 @@ html[data-brand="london-bagel-museum"]:has(.hero) #faces .eyebrow{color:#E4B15E}
 html[data-brand="london-bagel-museum"]:has(.hero) #faces .char b{color:#F3E2C4}
 html[data-brand="london-bagel-museum"]:has(.hero) #faces .char span{color:#FBF0DA;opacity:.92}
 
-/* ---- v5.4b: visuals lead (main page #brands + #faces) ---------------
+/* ---- Brands and characters: visuals lead -----------------------------
    Goal, measured at 1440-1500px: cards > 334x534 rendered, polaroids
    > 178px, text block subordinate. The rows escape the default wrap
    padding (--pad up to 72px/side) and run near edge-to-edge; the type
@@ -2068,7 +2067,7 @@ html[data-brand="london-bagel-museum"]:has(.hero) .chars{
   gap:clamp(12px,1.3vw,20px)}
 
 /* newsroom: masthead clears the fixed 74px header instead of running
-   its rules through the nav row (Ted 2026-08-07) */
+   its rules through the nav row  */
 [data-brand="esg"] .mast{padding-top:88px}
 /* caps section labels: keep on one line and optically flush right
    (trailing tracking made them look clipped at the rule's end) */
